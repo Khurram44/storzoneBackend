@@ -1,0 +1,43 @@
+{
+  "name": "byggochfix-server",
+  "private": true,
+  "version": "0.1.0",
+  "description": "API Server CMS Based",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "chart.js": "^3.5.1",
+    "graphql": "^15.6.0",
+    "react-chartjs-2": "^3.0.5",
+    "react-charts": "^2.0.0-beta.7",
+    "strapi": "3.6.8",
+    "strapi-admin": "3.6.8",
+    "strapi-connector-mongoose": "3.6.8",
+    "strapi-plugin-content-manager": "3.6.8",
+    "strapi-plugin-content-type-builder": "3.6.8",
+    "strapi-plugin-documentation": "3.6.8",
+    "strapi-plugin-email": "3.6.8",
+    "strapi-plugin-graphql": "3.6.8",
+    "strapi-plugin-i18n": "3.6.8",
+    "strapi-plugin-upload": "3.6.8",
+    "strapi-plugin-users-permissions": "3.6.8",
+    "strapi-provider-upload-cloudinary": "^3.6.8",
+    "strapi-utils": "3.6.8"
+  },
+  "author": {
+    "name": "NexusBerry"
+  },
+  "strapi": {
+    "uuid": "5d250dce-5b08-4f2d-8232-5ed73bdf4dc9"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
